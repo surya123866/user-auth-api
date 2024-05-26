@@ -53,9 +53,9 @@ You can use tools like Postman or cURL to interact with the API endpoints.
 # Example usage:
 
 Register a new user:
-Api: http://localhost:3000/api/register
-Headers : "Content-Type: application/json" 
-Body:'{"name": "John Doe", "email": "john@example.com", "password": "password123"}'
+Api: http://localhost:3000/api/register.
+Headers : "Content-Type: application/json" .
+Body:'{"name": "John Doe", "email": "john@example.com", "password": "password123"}'.
 Response:{
   "_id": "someUserId",
   "name": "John Doe",
@@ -67,9 +67,9 @@ Response:{
 
 
 Login with the registered user:
-Api: http://localhost:3000/api/users/login
-Headers: "Content-Type: application/json"
-Body: '{"email": "john@example.com", "password": "password123"}'
+Api: http://localhost:3000/api/users/login.
+Headers: "Content-Type: application/json".
+Body: '{"email": "john@example.com", "password": "password123"}'.
 SampleResponse:{
   "_id": "someUserId",
   "name": "John Doe",
@@ -79,8 +79,8 @@ SampleResponse:{
 
 
 Retrieve user details:
-Api:  http://localhost:3000/api/users/profile
-Headers:"Authorization: Bearer <jwt-token>"
+Api:  http://localhost:3000/api/users/profile.
+Headers:"Authorization: Bearer <jwt-token>".
 SampleResponse: {
   "_id": "someUserId",
   "name": "John Doe",
