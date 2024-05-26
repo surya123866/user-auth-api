@@ -80,7 +80,7 @@ You can use tools like Postman or cURL to interact with the API endpoints.
 
 ## Retrieve user details:
 - Api:  http://localhost:3000/api/users/profile
-- Headers:"Content-Type: application/json" "Authorization: Bearer <jwt-token>"
+- Headers:"Content-Type: application/json" "Authorization: Bearer your_generated_jwt_token"
 - SampleResponse: {
   "_id": "someUserId",
   "name": "John Doe",
