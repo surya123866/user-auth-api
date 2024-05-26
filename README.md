@@ -52,11 +52,11 @@ You can use tools like Postman or cURL to interact with the API endpoints.
 
 # Example usage:
 
-Register a new user:
-Api: http://localhost:3000/api/register.
-Headers : "Content-Type: application/json" .
-Body:'{"name": "John Doe", "email": "john@example.com", "password": "password123"}'.
-Response:{
+## Register a new user:
+- Api: http://localhost:3000/api/register
+- Headers : "Content-Type: application/json" 
+- Body:'{"name": "John Doe", "email": "john@example.com", "password": "password123"}'
+- Response:{
   "_id": "someUserId",
   "name": "John Doe",
   "email": "johndoe@example.com",
@@ -66,11 +66,11 @@ Response:{
 
 
 
-Login with the registered user:
-Api: http://localhost:3000/api/users/login.
-Headers: "Content-Type: application/json".
-Body: '{"email": "john@example.com", "password": "password123"}'.
-SampleResponse:{
+## Login with the registered user:
+- Api: http://localhost:3000/api/users/login
+- Headers: "Content-Type: application/json"
+- Body: '{"email": "john@example.com", "password": "password123"}'
+- SampleResponse:{
   "_id": "someUserId",
   "name": "John Doe",
   "email": "johndoe@example.com",
@@ -78,10 +78,10 @@ SampleResponse:{
 }
 
 
-Retrieve user details:
-Api:  http://localhost:3000/api/users/profile.
-Headers:"Authorization: Bearer <jwt-token>".
-SampleResponse: {
+## Retrieve user details:
+- Api:  http://localhost:3000/api/users/profile
+- Headers:"Content-Type: application/json" "Authorization: Bearer <jwt-token>"
+- SampleResponse: {
   "_id": "someUserId",
   "name": "John Doe",
   "email": "johndoe@example.com",
